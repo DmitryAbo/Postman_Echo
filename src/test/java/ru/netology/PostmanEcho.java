@@ -44,7 +44,7 @@ public class PostmanEcho {
                 .then()
                 .statusCode(200)
                 .body("data.data", equalTo("Abornev_ECHO"))
-                .body("json.data", equalTo("Abornev_ECHO"))
+                .body("json.data", equalTo(null))
         ;
     }
 }
